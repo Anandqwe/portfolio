@@ -5,30 +5,37 @@ const ProjectData: Card[] = [
     title: "Portfolio Website",
     description:
       "A sleek and responsive personal portfolio built with Next.js and Tailwind CSS.",
-    projectUrl: "https://your-portfolio.com",
+    projectUrl: "https://www.anandkrishna.tech",
   },
   {
-    title: "Task Manager App",
+    title: "BlogSphere (MERN Blog)",
     description:
-      "A full-stack productivity app to manage tasks and deadlines, with user authentication.",
-    projectUrl: "https://github.com/username/task-manager",
+      "Full-stack blogging platform with JWT auth, CRUD posts, search/filter, dark mode, and a responsive UI (React, Node/Express, MongoDB, Tailwind).",
+    projectUrl: "https://github.com/Anandqwe/blog-website",
   },
   {
-    title: "Blog Platform",
+    title: "TechClone",
     description:
-      "A markdown-based blog system with dynamic routing and CMS integration.",
-    projectUrl: "https://blog.example.com",
+      "A TypeScript + Vite project exploring component structure, routing, and Tailwind styling while cloning a modern landing page.",
+    projectUrl: "https://github.com/Anandqwe/TechClone",
   },
   {
-    title: "E-commerce Dashboard",
-    description: "An admin panel for managing products, orders, and analytics.",
-    projectUrl: "https://github.com/username/ecommerce-dashboard",
-  },
-  {
-    title: "Weather Forecast App",
+    title: "PRODIGY WD 01",
     description:
-      "A weather forecast app that uses OpenWeatherMap API to fetch real-time weather updates.",
-    projectUrl: "https://weather-app-demo.vercel.app",
+      "One of the Prodigy InfoTech internship tasks built with HTML, CSS, and JavaScript.",
+    projectUrl: "https://github.com/Anandqwe/PRODIGY_WD_01",
+  },
+  {
+    title: "PRODIGY WD 02",
+    description:
+      "Another Prodigy InfoTech task implementing interactive UI behavior with vanilla JS.",
+    projectUrl: "https://github.com/Anandqwe/PRODIGY_WD_02",
+  },
+  {
+    title: "Guess the Number (Java)",
+    description:
+      "Console game that rates your performance based on attempts, with high/low hints and RNG logic.",
+    projectUrl: "https://github.com/Anandqwe/Guess-the-Number",
   },
 ];
 

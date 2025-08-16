@@ -2,26 +2,26 @@ import { PortfolioConfig, SocialPlatform } from "./portfolio-types";
 
 const portfolioData: PortfolioConfig = {
   personalInfo: {
-    firstName: "Anandkrishna",
-    lastName: "Thandayamparambil",
-    title: "God Developer",
+    firstName: "Anand",
+    lastName: "Krishna",
+    title: "Web Developer",
     location: "Mumbai, India",
     email: "anandkrishna2534@gmail.com",
   },
 
   content: {
     tagline:
-      "a self-taught front-end web developer based in Maharashtra, India, with a passion for building clean and performant web apps",
+      "an aspiring full-stack web developer from Maharashtra, India, exploring React, Node.js, and MongoDB while building projects that are clean, practical, and user-friendly.",
     about: [
-      "Hi there! I'm a developer who loves digging into how stuff works on the web and getting all excited about making websites run faster. I'm always on the lookout to learn more about web development and what's new in the tech world. ",
-      "My current jam is delving into React performance, exploring best coding practices and leveling up my skills. ",
-      "When I'm not busy churning out code, you can probably find me watching anime or tinkering around with my Linux setup. ",
+      "Hi there! I'm Anand, a developer who’s fascinated by how the web works under the hood. I enjoy breaking down complex concepts into simple, working solutions and continuously improving my skills.",
+      "Right now, I’m diving into full-stack development — learning React and Tailwind on the frontend, and exploring Node.js, Express, and MongoDB on the backend. I’m also tinkering with Firebase and experimenting with different project ideas to put my learning into practice.",
+      "Outside of coding, I like exploring Linux distros, geeking out about ethical hacking, and occasionally chilling with some anime. My goal is to grow into a well-rounded developer who can build scalable apps and contribute meaningfully to open-source and real-world projects.",
     ],
     svgLink: "https://schar.dev/images/saurabh-charde.svg",
   },
 
   skills: {
-    languages: ["TypeScript", "JavaScript", "Python", "SQL"],
+    languages: ["Java", "Flutter", "HTML", "CSS", "JavaScript", "TypeScript", "Python", "SQL"],
     technologies: [
       "React",
       "Next.js",
@@ -29,8 +29,9 @@ const portfolioData: PortfolioConfig = {
       "Express",
       "MongoDB",
       "Tailwind CSS",
+      "Firebase",
     ],
-    tools: ["Git", "Neovim", "Linux", "VS Code", "Figma", "Postman"],
+    tools: ["Git", "Neovim", "Linux", "VS Code", "Figma"],
   },
 
   socialLinks: [
@@ -46,8 +47,8 @@ const portfolioData: PortfolioConfig = {
     },
     {
       platform: SocialPlatform.REDDIT,
-      url: "https://www.reddit.com/user/xyz",
-      username: "xyz",
+      url: "https://www.reddit.com/user/Anand_1244",
+      username: "Anand_1244",
     },
     {
       platform: SocialPlatform.TWITTER,
@@ -56,60 +57,41 @@ const portfolioData: PortfolioConfig = {
     },
     {
       platform: SocialPlatform.TELEGRAM,
-      url: "https://t.me/s_adi_dev",
+      url: "https://t.me/Anand1244",
       username: "s_adi_dev",
     },
   ],
 
   workExperience: [
     {
-      company: "TechNova Labs",
-      position: "Full Stack Developer",
-      startDate: new Date("2023-01-01"),
-      endDate: null,
+      company: "Prodigy InfoTech",
+      position: "Web Development Intern",
+      startDate: new Date("2024-08-01"),
+      endDate: new Date("2024-08-31"),
       description:
-        "Building modern web applications for startups and enterprises.",
+        "Completed a 1-month internship program focused on hands-on experience in web development.",
       achievements: [
-        "Redesigned core dashboard improving performance by 30%",
-        "Built reusable component library with Tailwind and ShadCN",
-        "Integrated real-time chat using WebSocket",
+        "Built and optimized responsive web pages using React and Tailwind CSS",
+        "Worked on performance improvements for existing projects",
+        "Collaborated with the team to understand real-world development practices",
       ],
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Prisma",
-        "PostgreSQL",
-        "Tailwind CSS",
-      ],
-    },
-    {
-      company: "OpenSource Contributions",
-      position: "Contributor",
-      startDate: new Date("2022-05-01"),
-      endDate: new Date("2022-12-01"),
-      description:
-        "Actively contributed to open-source projects in the React and Node ecosystem.",
-      achievements: [
-        "Merged 10+ PRs in high-traffic repositories",
-        "Improved documentation and onboarding experience",
-      ],
-      technologies: ["React", "Node.js", "Markdown", "Git"],
+      technologies: ["React", "Tailwind CSS", "JavaScript", "Git"],
     },
   ],
 
   education: [
     {
-      institution: "Indian Institute of Technology",
-      degree: "B.Tech in Computer Science",
-      startDate: new Date("2019-07-01"),
-      endDate: new Date("2023-06-30"),
+      institution: "SIES College of Arts, Science & Commerce",
+      degree: "B.Sc in Computer Science",
+      startDate: new Date("2023-06-30"),
+      endDate: new Date("2026-06-30"),
     },
   ],
 
   footerMarquee: [
-    "Front End Web Developer",
-    "Not A UI/UX Guy",
+    "Full Stack Web Developer",
     "Linux Enthusiast",
+    "Open Source Contributor",
     "Weeb",
   ],
 
