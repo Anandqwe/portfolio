@@ -1,3 +1,4 @@
+import CurtainNavbar from "@/components/ui/curtain-navbar";
 import portfolioData from "@/lib/config/portfolio-data";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${monumentFont.variable} ${monoramaFont.variable} ${primaryFont.variable} antialiased selection:bg-accent selection:text-background text-foreground bg-background font-primary`}
       >
+        <CurtainNavbar />
         {children}
       </body>
     </html>
