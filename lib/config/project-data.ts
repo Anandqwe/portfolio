@@ -2,16 +2,22 @@ import { Card } from "./portfolio-types";
 
 const ProjectData: Card[] = [
   {
-    title: "Portfolio Website",
+    title: "Inventory Supermarkets",
     description:
-      "A sleek and responsive personal portfolio built with Next.js and Tailwind CSS.",
-    projectUrl: "https://www.anandkrishna.tech",
+      "A comprehensive inventory management system for supermarkets built with JavaScript, enabling efficient tracking and organization of products and stock levels.",
+    projectUrl: "https://github.com/Anandqwe/inventory-supermarkets",
   },
   {
-    title: "BlogSphere (MERN Blog)",
+    title: "Jeevan Setu",
     description:
-      "Full-stack blogging platform with JWT auth, CRUD posts, search/filter, dark mode, and a responsive UI (React, Node/Express, MongoDB, Tailwind).",
-    projectUrl: "https://github.com/Anandqwe/blog-website",
+      "A health and wellness initiative project built to connect users with medical resources and health information, promoting awareness and accessibility.",
+    projectUrl: "https://github.com/Anandqwe/jeevan-setu",
+  },
+  {
+    title: "RealityCheck CLI",
+    description:
+      "A Python command-line utility tool designed to provide reality checks and validation utilities for development workflows.",
+    projectUrl: "https://github.com/Anandqwe/realitycheck-cli",
   },
   {
     title: "TechClone",
@@ -20,22 +26,22 @@ const ProjectData: Card[] = [
     projectUrl: "https://github.com/Anandqwe/TechClone",
   },
   {
-    title: "PRODIGY WD 01",
+    title: "VimX",
     description:
-      "One of the Prodigy InfoTech internship tasks built with HTML, CSS, and JavaScript.",
-    projectUrl: "https://github.com/Anandqwe/PRODIGY_WD_01",
+      "A Lua-based Vim configuration and extension project for enhancing text editing capabilities with custom keybindings and plugins.",
+    projectUrl: "https://github.com/Anandqwe/VimX",
   },
   {
-    title: "PRODIGY WD 02",
+    title: "Anand Dots",
     description:
-      "Another Prodigy InfoTech task implementing interactive UI behavior with vanilla JS.",
-    projectUrl: "https://github.com/Anandqwe/PRODIGY_WD_02",
+      "A dotfiles repository containing shell scripts and configuration files for setting up a development environment with custom preferences.",
+    projectUrl: "https://github.com/Anandqwe/anand-dots",
   },
   {
-    title: "Guess the Number (Java)",
+    title: "Portfolio Website",
     description:
-      "Console game that rates your performance based on attempts, with high/low hints and RNG logic.",
-    projectUrl: "https://github.com/Anandqwe/Guess-the-Number",
+      "A sleek and responsive personal portfolio built with Next.js and Tailwind CSS, showcasing projects and skills.",
+    projectUrl: "https://www.anandkrishna.tech/",
   },
 ];
 

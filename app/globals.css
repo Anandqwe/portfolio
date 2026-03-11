@@ -2,9 +2,9 @@
 
 :root {
   /* accent color */
-  --accent-hex: #d7ef76;
+  /* --accent-hex: #76efb7f4; */
   /* --accent-hex: #e08537; */
-  /* --accent-hex: #f6e463; */
+  --accent-hex: #f6e463;
   --accent: oklch(from var(--accent-hex) l c h);
 
   /* Color palette */

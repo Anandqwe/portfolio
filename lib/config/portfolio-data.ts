@@ -11,17 +11,16 @@ const portfolioData: PortfolioConfig = {
 
   content: {
     tagline:
-      "an aspiring full-stack web developer from Maharashtra, India, exploring React, Node.js, and MongoDB while building projects that are clean, practical, and user-friendly.",
+      "Full-stack developer passionate about building scalable applications, exploring new technologies, and solving complex problems with elegant solutions.",
     about: [
-      "Hi there! I'm Anand, a developer who’s fascinated by how the web works under the hood. I enjoy breaking down complex concepts into simple, working solutions and continuously improving my skills.",
-      "Right now, I’m diving into full-stack development — learning React and Tailwind on the frontend, and exploring Node.js, Express, and MongoDB on the backend. I’m also tinkering with Firebase and experimenting with different project ideas to put my learning into practice.",
-      "Outside of coding, I like exploring Linux distros, geeking out about ethical hacking, and occasionally chilling with some anime. My goal is to grow into a well-rounded developer who can build scalable apps and contribute meaningfully to open-source and real-world projects.",
+      "I'm Anand, a developer from Mumbai, India, passionate about creating practical solutions to real-world problems. I enjoy exploring new technologies, understanding how systems work, and collaborating with others to build meaningful projects.",
+      "I work across the full stack, from crafting responsive UIs with React and Tailwind CSS to designing robust backend systems with Node.js, Express, and MongoDB. I'm always curious about different tech stacks and approaches, whether it's Python CLI tools, configuration management with shell scripts, or even Vim customization.",
+      "Beyond coding, I'm interested in Linux systems, open-source software, and continuous learning. I believe in writing clean, maintainable code and contributing to projects that make a real impact.",
     ],
-    svgLink: "https://schar.dev/images/saurabh-charde.svg",
   },
 
   skills: {
-    languages: ["Java", "Flutter", "HTML", "CSS", "JavaScript", "TypeScript", "Python", "SQL"],
+    languages: ["JavaScript", "TypeScript", "Python", "HTML", "CSS", "Shell", "SQL", "Lua"],
     technologies: [
       "React",
       "Next.js",
@@ -30,6 +29,7 @@ const portfolioData: PortfolioConfig = {
       "MongoDB",
       "Tailwind CSS",
       "Firebase",
+      "Vite",
     ],
     tools: ["Git", "Neovim", "Linux", "VS Code", "Figma"],
   },
@@ -57,12 +57,28 @@ const portfolioData: PortfolioConfig = {
     },
     {
       platform: SocialPlatform.TELEGRAM,
-      url: "https://t.me/Anand1244",
-      username: "s_adi_dev",
+      url: "https://t.me/Anand_1244",
+      username: "anand_1244",
     },
   ],
 
   workExperience: [
+    {
+      company: "UptoSkills",
+      position: "Web Development Intern",
+      startDate: new Date("2026-01-04"),
+      endDate: new Date("2026-04-04"),
+      description:
+        "Currently interning as a Web Development Intern, gaining hands-on experience in full-stack development. Working on building scalable web applications using modern technologies and best practices.",
+      achievements: [
+        "Developed and maintained full-stack web applications using React and Node.js",
+        "Implemented responsive UI components with Tailwind CSS and component-based architecture",
+        "Designed and optimized MongoDB databases for improved query performance",
+        "Collaborated with senior developers on code reviews and architectural improvements",
+        "Contributed to debugging and implementing features for production applications",
+      ],
+      technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JavaScript", "TypeScript", "Git"],
+    },
     {
       company: "Prodigy InfoTech",
       position: "Web Development Intern",
@@ -92,7 +108,7 @@ const portfolioData: PortfolioConfig = {
     "Full Stack Web Developer",
     "Linux Enthusiast",
     "Open Source Contributor",
-    "Weeb",
+    "Web",
   ],
 
   includeGitHubInProjects: true,
